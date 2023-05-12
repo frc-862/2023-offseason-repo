@@ -18,6 +18,7 @@ public final class Constants {
 
      //assigns a variable to a port
     //TODO find out which port is right or left
+<<<<<<< Updated upstream
     public final int motor0 = 0;
     public final int motor1 = 1;
     public final int motor2 = 2;
@@ -34,3 +35,14 @@ public final class Constants {
     //TODO same as drivetrain(find what and where for victor)
     public final int powersetter = 4;
 }
+=======
+    public  final static int motor0 = 0;
+    public  final static int motor1 = 1;
+    public  final static int motor2 = 2;
+    public  final static int motor3 = 3;
+    //TODO same as drivetrain(find what and where for victor)
+    public final static double powersetter = RobotContainer.Flightsticks.getX();
+
+  }
+}
+>>>>>>> Stashed changes
