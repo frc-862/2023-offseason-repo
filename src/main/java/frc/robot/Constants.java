@@ -24,6 +24,8 @@ public final class Constants {
     public  final static int motor3 = 3;
     //TODO same as drivetrain(find what and where for victor)
     public final static double powersetter = RobotContainer.Flightsticks.getX();
+    //TODO find the joystick channel
+    public final static int Joychan = 1;
 
   }
 }

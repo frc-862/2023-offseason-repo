@@ -1,0 +1,21 @@
+[
+  {
+    "type": "java",
+    "name": "jar (in project 2023-offseason-repo)",
+    "extensions": [
+      {
+        "name": "Sim GUI",
+        "libName": "/Users/devinpool/Desktop/LightningRobotics/2023-offseason-repo/build/jni/release/libhalsim_gui.dylib",
+        "defaultEnabled": true
+      },
+      {
+        "name": "Use Real DriverStation",
+        "libName": "/Users/devinpool/Desktop/LightningRobotics/2023-offseason-repo/build/jni/release/libhalsim_ds_socket.dylib",
+        "defaultEnabled": false
+      }
+    ],
+    "environment": {},
+    "libraryDir": "/Users/devinpool/Desktop/LightningRobotics/2023-offseason-repo/build/jni/release",
+    "mainClassName": "frc.robot.Main"
+  }
+]

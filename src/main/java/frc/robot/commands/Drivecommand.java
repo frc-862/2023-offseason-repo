@@ -1,11 +1,14 @@
 package frc.robot.commands;
 
 import frc.robot.subsystems.Drivetrain;
+import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.Subsystem;
 public class Drivecommand extends CommandBase{
 
     public Drivecommand(Drivetrain drivetrain) {
+
+  
 
 
         
@@ -20,6 +23,7 @@ public class Drivecommand extends CommandBase{
   @Override
   public void execute() {
 
+   Drivetrain.drive(Drivetrain.FlyX, Drivetrain.FlyY);
   }
 
   // Called once the command ends or is interrupted.
@@ -29,7 +33,7 @@ public class Drivecommand extends CommandBase{
   // Returns true when the command should end.
   @Override
   public boolean isFinished() {
-    return false;
+    return true;
   }
 
 }
